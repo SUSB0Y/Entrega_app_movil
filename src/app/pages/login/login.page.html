@@ -1,0 +1,38 @@
+<ion-content [fullscreen]="true">
+  <br><br><br>
+<div class="centrar posicion">
+  <ion-item class="ion-margin-top fondo">
+    <ion-input
+    class="User"
+    name="User"
+    type="User"
+    label="User"
+    labelPlacement= "floating"
+    [(ngModel)]="mdl_user"></ion-input>
+    
+    <ion-icon class="icon1"  slot="end" name="person-outline"></ion-icon>
+  </ion-item>
+
+  <ion-item class="ion-margin-top fondo">
+    <ion-input 
+    class="input"
+    name="password"
+    type="password"
+    label="password"
+    labelPlacement= "floating"
+    [(ngModel)]="mdl_password"></ion-input>
+    
+    <ion-icon class="icon1" slot="end" name="lock-closed-outline"></ion-icon>
+  </ion-item>
+<br>
+
+  <ion-button expand="block" (click)="login()">Sing in</ion-button>
+
+<br>
+
+  <a class="icon2" href="#">go back beginning</a>
+
+</div>
+</ion-content>
+
+<img src="assets/img_sede.jpeg" alt="image">

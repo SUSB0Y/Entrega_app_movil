@@ -1,0 +1,35 @@
+<ion-content [fullscreen]="true">
+  <br><br><br>
+<div class="centrar posicion">
+  <ion-item class="ion-margin-top fondo">
+    <ion-input
+    class="Create-user"
+    name="Create-user"
+    type="user"
+    label="Create user"
+    labelPlacement= "floating"
+    [(ngModel)]="mdl_create_user"
+    ></ion-input>
+    <ion-icon class="icon1"  slot="end" name="person-outline"></ion-icon>
+  </ion-item>
+
+  <ion-item class="ion-margin-top fondo">
+    <ion-input 
+    class="input"
+    name="Create_password"
+    type="password"
+    label="Create password"
+    labelPlacement= "floating"
+    [(ngModel)]="mdl_create_password"></ion-input>
+    
+    <ion-icon class="icon1" slot="end" name="lock-closed-outline"></ion-icon>
+  </ion-item>
+<br>
+
+  <ion-button expand="block" (click)="Crearusuario()">Create account</ion-button>
+
+<br>
+</div>
+</ion-content>
+
+<img src="assets/img_sede.jpeg" alt="image">
