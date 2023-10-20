@@ -197,7 +197,12 @@
    */
 
   .md body {
-    --ion-background-color: #121212;
+    background-image: url(https://www.bing.com/images/search?view=detailV2&ccid=u3RQ48lW&id=7B9290D20AAD8D11DDEFF0BD44F7A203BE11E8D0&thid=OIP.u3RQ48lW0hEejdgE_p-0_gHaFc&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.bb7450e3c956d2111e8dd804fe9fb4fe%3frik%3d0OgRvgOi90S98A%26riu%3dhttp%253a%252f%252frrnn.duoc.cl%252fsites%252fdefault%252ffiles%252fsede_padre_alonso.jpg%26ehk%3drtDBT%252fKcs%252fE7o9CkEB9PBJWJHkO%252fMo5FJWep64V6P7I%253d%26risl%3d%26pid%3dImgRaw%26r%3d0%26sres%3d1%26sresct%3d1%26srh%3d799%26srw%3d1089&exph=470&expw=640&q=sede+duoc+padre+alonso+de+ovalle+imagenes+hd&simid=607991903122970382&FORM=IRPRST&ck=A656083635B29E111120B9E51DCC6C98&selectedIndex=0&ajaxhist=0&ajaxserp=0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #FFFFFF;
+    --ion-background-color: #000000F;
     --ion-background-color-rgb: 18,18,18;
 
     --ion-text-color: #ffffff;
